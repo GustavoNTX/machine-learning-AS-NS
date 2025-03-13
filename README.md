@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🎮 Classificação de Gamers - Frontend (React, Vite, TypeScript)
 
 Este é o frontend da aplicação de classificação de gamers, que utiliza técnicas de Machine Learning para categorizar jogadores com base em seus atributos. O projeto permite visualizar e interagir com modelos de aprendizado supervisionado e não supervisionado, tornando o processo de categorização claro e acessível.
