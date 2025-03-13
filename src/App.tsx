@@ -23,7 +23,7 @@ function App() {
               <p>
                 A equação de regressão é:
                 <br />
-                <code>y = b0 + b1·x1 + b2·x2 + b3·x3 + b4·x4 + b5·x5</code>
+                <code style={{ color: "black" }}>y = b0 + b1·x1 + b2·x2 + b3·x3 + b4·x4 + b5·x5</code>
                 <br />
                 Onde:
                 <ul>
@@ -34,15 +34,15 @@ function App() {
                 </ul>
                 <strong>Exemplo:</strong> Suponha que, após o treinamento, os coeficientes sejam:
                 <br />
-                <code>b0 = -3.5, b1 = 0.04, b2 = 0.001, b3 = 0.02, b4 = 0.03, b5 = 0.05</code>
+                <code style={{ color: "black" }}>b0 = -3.5, b1 = 0.04, b2 = 0.001, b3 = 0.02, b4 = 0.03, b5 = 0.05</code>
                 <br />
                 Para um jogador com:
                 <br />
-                <code>habilidade = 75, tempo_jogo = 1200, familiaridade = 80, competitividade = 90, imersao = 60</code>
+                <code style={{ color: "black" }}>habilidade = 75, tempo_jogo = 1200, familiaridade = 80, competitividade = 90, imersao = 60</code>
                 <br />
                 O valor linear seria:
                 <br />
-                <code>
+                <code style={{ color: "black" }}>
                   z = -3.5 + (0.04×75) + (0.001×1200) + (0.02×80) + (0.03×90) + (0.05×60)
                   <br />
                   z = -3.5 + 3 + 1.2 + 1.6 + 2.7 + 3 = 8.0
@@ -67,15 +67,15 @@ function App() {
               <p>
                 <strong>Exemplo:</strong> Suponha que um dos centros de cluster seja:
                 <br />
-                <code>[80, 1250, 85, 95, 65]</code>
+                <code style={{ color: "black" }}>[80, 1250, 85, 95, 65]</code>
                 <br />
                 E que o novo jogador tenha os atributos:
                 <br />
-                <code>[75, 1200, 80, 90, 60]</code>
+                <code style={{ color: "black" }}>[75, 1200, 80, 90, 60]</code>
                 <br />
                 A distância Euclidiana entre o jogador e este centro é calculada por:
                 <br />
-                <code>
+                <code style={{ color: "black" }}>
                   distância = √[(75-80)² + (1200-1250)² + (80-85)² + (90-95)² + (60-65)²]
                   <br />
                   = √[5² + 50² + 5² + 5² + 5²]
