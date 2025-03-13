@@ -1,8 +1,8 @@
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://backend-py-ml.onrender.com/";
 
 export const preverCategoria = async (dados: any) => {
     try {
-        console.log("Enviando dados para prever:", dados);  // Log para depuração
+        console.log("Enviando dados para prever:", dados);
         const resposta = await fetch(`${API_URL}/prever`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },

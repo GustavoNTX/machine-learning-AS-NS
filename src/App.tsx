@@ -1,4 +1,3 @@
-// src/App.tsx
 import Formulario from "./components/Formulario";
 import Clusters from "./components/Clusters";
 import "bootstrap/dist/css/bootstrap.min.css";

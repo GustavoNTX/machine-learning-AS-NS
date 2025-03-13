@@ -1,4 +1,3 @@
-// src/components/Formulario.tsx
 import { useState } from "react";
 import { preverCategoria } from "../services/api";
 import RadarChart from "./RadarChart";
